@@ -3,3 +3,6 @@ deployment:
   tasks:
     - export DEPLOYPATH=/home/a5ezbh0umow0/public_html/
     - /bin/cp * $DEPLOYPATH
+    - /bin/cp application $DEPLOYPATH
+    - /bin/cp assets $DEPLOYPATH
+    - /bin/cp system $DEPLOYPATH
