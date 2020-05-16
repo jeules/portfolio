@@ -13,19 +13,23 @@
     }
     .card {
         padding: 30px;
-        margin: auto;
-        width: 600px;
+        width: 40%;
         
         -webkit-box-shadow: -2px -2px 50px -7px rgba(0,0,0,0.54);
         -moz-box-shadow: -2px -2px 50px -7px rgba(0,0,0,0.54);
         box-shadow: -2px -2px 50px -7px rgba(0,0,0,0.54);
+    }
+    @media only screen and (max-width: 600px) {
+        .card {
+            width: 100%;
+        }
     }
 </style>
 
 <div class="container-fluid h-100">
     <div class="row h-100 align-items-center">
         <div class="col-12">
-            <div class="card text-center align-items-center">
+            <div class="card text-center align-items-center m-auto">
                 <img src="<?php echo base_url('assets/media/img_profile.jpg'); ?>">
                 <?php echo $message; ?>
             </div>
