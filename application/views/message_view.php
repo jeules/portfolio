@@ -13,8 +13,8 @@
     }
     .card {
         padding: 30px;
-        margin-left: 30%;
-        margin-right: 30%;
+        margin: auto;
+        width: 600px;
         
         -webkit-box-shadow: -2px -2px 50px -7px rgba(0,0,0,0.54);
         -moz-box-shadow: -2px -2px 50px -7px rgba(0,0,0,0.54);
@@ -24,7 +24,7 @@
 
 <div class="container-fluid h-100">
     <div class="row h-100 align-items-center">
-        <div class="col-12 text-center">
+        <div class="col-12">
             <div class="card text-center align-items-center">
                 <img src="<?php echo base_url('assets/media/img_profile.jpg'); ?>">
                 <?php echo $message; ?>
