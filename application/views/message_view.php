@@ -74,8 +74,8 @@
                 <img src="<?php echo base_url('assets/media/img_profile.jpg'); ?>">
                 <?php echo $message; ?>
                 <ul>
-                    <li><a href="http://facebook.com/julesalmodal"><i class="fab fa-facebook-f"></i></a></li>
-                    <li><a href="http://instagram.com/julesalmodal"><i class="fab fa-instagram"></i> </a></li>
+                    <!-- <li><a href="http://facebook.com/julesalmodal"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="http://instagram.com/julesalmodal"><i class="fab fa-instagram"></i> </a></li> -->
                     <!-- <li><a href="http://linkedin.com/"><i class="fab fa-linkedin-in"></i></a></li> -->
                     <!-- <li><a href="http://twitter.com/"><i class="fab fa-twitter"></i></a></li> -->
                 </ul>
